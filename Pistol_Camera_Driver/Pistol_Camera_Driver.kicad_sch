@@ -1663,6 +1663,9 @@
   (junction (at 220.98 46.99) (diameter 0) (color 0 0 0 0)
     (uuid e58c41e8-eb11-41ec-b9ff-026647624848)
   )
+  (junction (at 64.77 25.4) (diameter 0) (color 0 0 0 0)
+    (uuid f4c9d07a-d696-4bb9-88ea-d6da2ca74a0b)
+  )
 
   (wire (pts (xy 148.59 33.02) (xy 152.4 33.02))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -2303,6 +2306,10 @@
   (wire (pts (xy 95.25 40.64) (xy 95.25 45.72))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 75e61147-8c48-4172-8297-96567531e8bc)
+  )
+  (wire (pts (xy 64.77 24.13) (xy 64.77 25.4))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 77fdaceb-46e6-43ea-b21f-dd816044ec38)
   )
   (wire (pts (xy 46.99 35.56) (xy 55.88 35.56))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -4835,6 +4842,22 @@
     (pin "4" (uuid c4ec0148-7cd4-41fa-a6ac-4650285ad855))
   )
 
+  (symbol (lib_id "power:+5V") (at 64.77 24.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid b80da896-5f72-4247-a3c1-c24cf856e57d)
+    (property "Reference" "#PWR?" (id 0) (at 64.77 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (id 1) (at 64.77 19.05 0))
+    (property "Footprint" "" (id 2) (at 64.77 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 64.77 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1454b8f8-a359-4a30-8942-6da18fb1cfb7))
+  )
+
   (symbol (lib_id "Device:LED") (at 133.35 96.52 180) (unit 1)
     (in_bom yes) (on_board no) (fields_autoplaced)
     (uuid b87eebf7-a241-437c-ad4e-9958d786b974)
@@ -5603,6 +5626,9 @@
     )
     (path "/c441eb28-7c49-40b7-9259-a1c6cb9be3d4"
       (reference "#PWR0106") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/b80da896-5f72-4247-a3c1-c24cf856e57d"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/1933c983-dd19-4b0d-b38f-481952cc8d56"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
