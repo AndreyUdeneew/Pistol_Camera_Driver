@@ -3048,10 +3048,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "Reserve1" (shape input) (at 151.13 43.18 0) (fields_autoplaced)
+  (global_label "Reserve2" (shape input) (at 151.13 43.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 14848477-7e30-440a-bde9-65d715e53862)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 162.0702 43.2594 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 162.0702 43.1006 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -3643,7 +3643,7 @@
   (symbol (lib_id "power:GND") (at 138.43 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1bd6e7cd-7534-4ad0-a9a8-cfc9b4314074)
-    (property "Reference" "#PWR?" (id 0) (at 138.43 198.12 0)
+    (property "Reference" "#PWR0102" (id 0) (at 138.43 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 138.43 196.85 0)
@@ -4905,7 +4905,7 @@
   (symbol (lib_id "power:GND") (at 156.21 195.58 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b31577ba-5114-45c4-8ae0-0cbc1e020115)
-    (property "Reference" "#PWR?" (id 0) (at 149.86 195.58 0)
+    (property "Reference" "#PWR0101" (id 0) (at 149.86 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 151.13 195.58 0)
@@ -5243,7 +5243,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 165.1 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c70a183e-c093-41cc-a47b-042ab887919a)
-    (property "Reference" "J?" (id 0) (at 167.64 194.3099 0)
+    (property "Reference" "J12" (id 0) (at 167.64 194.3099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal_01x02" (id 1) (at 167.64 195.5799 0)
@@ -5650,7 +5650,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 144.78 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fb7bf480-6c9b-4bfb-b3a0-f924ff0e3f16)
-    (property "Reference" "J?" (id 0) (at 147.32 189.2299 0)
+    (property "Reference" "J11" (id 0) (at 147.32 189.2299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal_01x02" (id 1) (at 147.32 190.4999 0)
@@ -5873,11 +5873,11 @@
     (path "/c05b0e7d-edeb-4d23-9fb8-94d21df79fed"
       (reference "#PWR062") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/1bd6e7cd-7534-4ad0-a9a8-cfc9b4314074"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/b31577ba-5114-45c4-8ae0-0cbc1e020115"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1bd6e7cd-7534-4ad0-a9a8-cfc9b4314074"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/1933c983-dd19-4b0d-b38f-481952cc8d56"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
@@ -5963,11 +5963,11 @@
     (path "/ca988dcf-d9d5-4c6c-b248-a53b49e3a2f0"
       (reference "J10") (unit 1) (value "Bluetooth") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
     )
-    (path "/c70a183e-c093-41cc-a47b-042ab887919a"
-      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
-    )
     (path "/fb7bf480-6c9b-4bfb-b3a0-f924ff0e3f16"
-      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
+      (reference "J11") (unit 1) (value "Screw_Terminal_01x02") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
+    )
+    (path "/c70a183e-c093-41cc-a47b-042ab887919a"
+      (reference "J12") (unit 1) (value "Screw_Terminal_01x02") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
     )
     (path "/7fabe294-0d39-4dd3-9c89-852e9ec4a980"
       (reference "Je1") (unit 1) (value "Screw_Terminal_01x02") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
