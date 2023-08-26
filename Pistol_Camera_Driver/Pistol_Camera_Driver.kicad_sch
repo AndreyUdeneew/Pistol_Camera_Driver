@@ -6123,7 +6123,7 @@
     (property "Value" "Screw_Terminal_01x02" (id 1) (at 198.12 151.1299 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" (id 2) (at 195.58 148.59 0)
+    (property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_1x02_P1.27mm_Vertical" (id 2) (at 195.58 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 195.58 148.59 0)
@@ -7105,7 +7105,7 @@
       (reference "J10") (unit 1) (value "Bluetooth") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
     )
     (path "/c0ef4d11-c7e3-436c-9c2e-2e74f67018d4"
-      (reference "J11") (unit 1) (value "Screw_Terminal_01x02") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
+      (reference "J11") (unit 1) (value "Screw_Terminal_01x02") (footprint "Connector_PinSocket_1.27mm:PinSocket_1x02_P1.27mm_Vertical")
     )
     (path "/251ac0bb-773f-4af2-a48d-f29635976cd7"
       (reference "J12") (unit 1) (value "Screw_Terminal_01x02") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
